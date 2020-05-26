@@ -1,5 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 # Online Video Conference
 This project is going to be an _Online Video Conferece_ __Web based__ Application by using _ReactJS_.
@@ -7,6 +6,4 @@ This project is going to be an _Online Video Conferece_ __Web based__ Applicatio
 
 
 # License
-This repository is released under [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). To put it in a nutshell, This means that you can use the source codes in any opensource projects or contributions. Attribution is not mandatory but appreciated.
-
-***To remove all barriers in the way of science.***
+This repository is released under [Creative Commons Zero V1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). To put it in a nutshell, This means that you can use the source codes in any opensource projects or contributions. Attribution is mandatory.
