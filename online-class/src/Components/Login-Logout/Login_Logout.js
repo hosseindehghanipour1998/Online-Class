@@ -21,21 +21,23 @@ class LILO extends Component{
     
   }
 
-  render(){  
+  render(){ 
+        let onButton = "#2D1457" ;
+        let offButton =  "#FFF851";
         var self = this;
         return (
               <div>
 
-                <div id="buttons" className="">
-                  <p id="signupButton" onClick={(e) => this.switchF("signup")} className={this.state.signup ? "yellow":"blue"}>Sign In</p>
-                  <p id="loginButton" onClick={(e) => this.switchF("login")} className={this.state.login ? "yellow":"blue"}> Login</p>
+                <div id="buttons" className = " ButtonFrame">
+                  <p id="signupButton"  onClick={(e) => this.switchF("signup")} className="paragraph">Sign Up</p>
+                  <p id="loginButton" onClick={(e) => this.switchF("login")} className="paragraph"> Sign In</p>
                 </div>
-                <br/>
 
-                <div>  
-                 { self.state.signup?<SignUp/> : null}
-                 {self.state.login? <SingIn /> : null}
-                </div>
+
+                  <div className="formFrame row-sm-2">  
+                        { self.state.signup?<SignUp/> : null}
+                        {self.state.login? <SingIn /> : null}
+                  </div>
              </div>
         )
   }    
