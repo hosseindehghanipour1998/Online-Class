@@ -2,9 +2,11 @@ import React from "react";
 import './style.css';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
 
-const SignIn = () => {
+
+const SignIn = ({onClickHandler}) => {
   return (
-    <div  class="SignInAlignment">
+    <div  className="SignInAlignment">
+    
       <MDBContainer >
         <MDBRow>
           <MDBCol md="12">
@@ -20,7 +22,7 @@ const SignIn = () => {
               </label>
               <input type="password" id="defaultFormLoginPasswordEx" className="form-control inputStyle" />
               <div className="text-center mt-4">
-                <MDBBtn  className="buttonStyle" type="submit">Login</MDBBtn>
+                <MDBBtn  className="buttonStyle" type="submit" onClick={onClickHandler} >Login</MDBBtn>
               </div>
             </form>
           </MDBCol>
