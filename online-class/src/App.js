@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import SignIn from './Components/SignIn/SignIn';
 import SignUp from './Components/SignUp/SignUp';
+import LILO from './Components/Login-Logout/Login_Logout'
 
 const Status = {
 	LOGIN: 1,
@@ -41,9 +42,12 @@ class App extends Component {
 
 	  return (
 	  	<div className = "App">
-		  	<p></p>
+{/*		  	<p></p>
 		  	{this.renderSwitch(this.state.router)}
-	  		
+	  		*/}
+
+	  		<p></p>
+	  		<LILO/>
 	  	</div>
 
 	  );
